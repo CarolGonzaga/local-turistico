@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    margin: 0 auto;
+    padding: 88px 80px;
+    max-width: 1120px;
+    background-color: var(--background-default);
+}
+
+header {
+    margin-bottom: 44px;
+}
+
+.headline {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: var(--text-headline);
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 8px 0 40px 0;
+}
+
+header .description {
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+    text-align: center;
+    color: var(--text-secondary);
+    margin-top: 24px;
+}
+
+img {
+    width: 100%;
+    border-radius: 28px;
+}
+
+section {
+    border-top: 1px solid var(--border-primary);
+}
+
+section > div:first-of-type {
+    margin: 64px 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 2px 0 8px 0;
+}
+
+p {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0 4px 0;
+}
+
+h2, h3 {
+    color: var(--text-primary);
+}
+
+ul {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+ul li::marker {
+    color: var(--text-secondary);
+}
+
+.historia {
+    color: var(--accent-blue);
+}
+
+.casais {
+    color: var(--accent-purple);
+}
+
+.familias {
+    color: var(--accent-pink);
+}
+
+.orcamento {
+    color: var(--accent-orange);
+}
+
+section > div > img {
+    margin-top: 48px;
+}
+
+span {
+    font-weight: bold;
+}
+
+section > div:last-of-type {
+    margin-bottom: 40px;
+}
+
+.bottom p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    margin: 65px 0 48px 0;
+    text-align: center;
+    font-family: "Alice", serif;
+}
+
