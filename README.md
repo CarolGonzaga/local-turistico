@@ -25,11 +25,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML5
 - CSS3
-- Estruturação semântica
-- Estilizações com CSS
-- Manipulação de fontes e cores
-- Listas
-- Ajuste e tratamento de imagens
 
 </br>
 </br>
