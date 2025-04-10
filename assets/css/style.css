@@ -67,7 +67,7 @@ section {
     border-top: 1px solid var(--border-primary);
 }
 
-section > div:first-of-type {
+section>div:first-of-type {
     margin: 64px 0;
 }
 
@@ -88,7 +88,8 @@ h3 {
     margin: 20px 0 4px 0;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: var(--text-primary);
 }
 
@@ -117,15 +118,15 @@ ul li::marker {
     color: var(--accent-orange);
 }
 
-section > div > img {
-    margin-top: 48px;
+section>div>img {
+    margin-top: 5rem;
 }
 
 span {
     font-weight: bold;
 }
 
-section > div:last-of-type {
+section>div:last-of-type {
     margin-bottom: 40px;
 }
 
@@ -135,8 +136,39 @@ section > div:last-of-type {
 }
 
 footer {
-    margin: 65px 0 48px 0;
+    margin: 65px 0 0 0;
     text-align: center;
     font-family: "Alice", serif;
 }
 
+@media (max-width: 620px) {
+    main {
+        padding: 3rem 1rem 0;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    section>div:first-of-type {
+        margin: 1rem 0;
+    }
+
+    footer {
+        margin: 3rem 0 0 0;
+        padding-bottom: 1rem;
+        font-size: 0.875rem;
+    }
+
+    .bottom p {
+        padding-inline: 1rem;
+    }
+}
